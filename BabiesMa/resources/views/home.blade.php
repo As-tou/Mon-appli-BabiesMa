@@ -54,13 +54,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/Bébé">Bébé</a>
+            <a class="nav-link active" aria-current="page" href="/bb">Bébé</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/Moi">Moi</a>
+            <a class="nav-link" href="/moi">Moi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/Plus">Plus</a>
+            <a class="nav-link" href="/plus">Plus</a>
           </li>
         </ul>
       </div>

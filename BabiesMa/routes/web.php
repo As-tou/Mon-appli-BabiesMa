@@ -2,11 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
-<<<<<<< Updated upstream
 use App\Http\Controllers\ConController;
-=======
 
->>>>>>> Stashed changes
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,3 +26,8 @@ Route::post('/register', [AuthController::class, 'register']);
 Route::get('/connexion', [AuthController::class, 'showLoginForm']);
 Route::post('/login', [AuthController::class, 'login']);
 
+Route::get('/bb', [ConController::class, 'showBB']);
+
+Route::get('/moi', [ConController::class, 'showMoi']);
+
+Route::get('/plus', [ConController::class, 'showPlus']);
